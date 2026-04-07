@@ -36,12 +36,12 @@ Como Executar
 
 1. Clone o repositório:
 
-   git clone 
+   git clone https://github.com/MiguelEduardoMazocho/BlackFitAcademia.git
 
 
 2. Acesse a pasta:
 
-   cd 
+   cd BlackFit
 
 
 3. Abra o arquivo `index.html` no navegador.
