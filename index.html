@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackFit Academia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.freepik.com/vetores-premium/logotipo-da-academia_759447-25.jpg" type="image/x-icon">
+</head>
+<body>
+    <body>
+    <header class="header">
+    <h1>BlackFit</h1>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#planos">Planos</a>
+        <a href="#contato">Contato</a>
+        <a href="#localizacao">Localização</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    </header>
+
+    <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h2>Transforme seu corpo</h2>
+        <p>Alta performance começa aqui</p>
+        <a href="#contato" class="btn">Agendar treino</a>
+    </div>
+    </section>
+
+    <section id="sobre" class="section reveal">
+    <h2>Sobre</h2>
+    <p>Ambiente moderno e equipado com tecnologia de ponta, pensado para oferecer conforto, segurança e alta performance. Contamos com profissionais qualificados e acompanhamento especializado para ajudar você a alcançar seus objetivos com eficiência e consistência.</p>
+    </section>
+
+    <section id="galeria" class="section reveal">
+    <h2>Galeria</h2>
+
+    <div class="gallery-grid">
+        <img src="https://acadbrasil.com.br/wp-content/uploads/2022/04/3-dicas-para-aproveitar-melhor-o-espaco-da-academia-1024x681.jpg" onclick="openLightbox(this)">
+        <img src="https://cdn.prod.website-files.com/64dd05b33f019f79a7ec8f43/6706e956ec7f40d4c73ff174_aparelhos-de-academia.webp" onclick="openLightbox(this)">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" onclick="openLightbox(this)">
+        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61" onclick="openLightbox(this)">
+    </div>
+
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+    </div>
+
+    <section id="planos" class="section reveal">
+    <div class="plan-table">
+    <table>
+      <thead>
+        <tr>
+          <th>Benefícios</th>
+          <th>Básico</th>
+          <th>Premium</th>
+          <th>VIP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Acesso à academia</td>
+          <td class="check">✔</td>
+          <td class="check">✔</td>
+          <td class="check">✔</td>
+        </tr>
+        <tr>
+          <td>Aulas em grupo</td>
+          <td class="x">✖</td>
+          <td class="check">✔</td>
+          <td class="check">✔</td>
+        </tr>
+        <tr>
+          <td>Acompanhamento profissional</td>
+          <td class="x">✖</td>
+          <td class="check">✔</td>
+          <td class="check">✔</td>
+        </tr>
+        <tr>
+          <td>Treino personalizado</td>
+          <td class="x">✖</td>
+          <td class="x">✖</td>
+          <td class="check">✔</td>
+        </tr>
+        <tr>
+          <td>Área VIP</td>
+          <td class="x">✖</td>
+          <td class="x">✖</td>
+          <td class="check">✔</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    </section>
+
+    <section id="contato" class="section reveal">
+    <h2>Agendamento</h2>
+    <a href="https://wa.me/5511999999999" target="_blank" class="btn">
+    Agendar via WhatsApp
+    </a>
+
+    <section id="localizacao" class="section reveal">
+
+    <h2>Localização</h2>
+
+    <div class="location-info">
+        <p><strong>Horário de funcionamento:</strong></p>
+        <p>Segunda a Sexta: 06:00 - 22:00</p>
+        <p>Sábado: 08:00 - 18:00</p>
+        <p>Domingo: 08:00 - 14:00</p>
+
+        <div class="location-buttons">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Ribeirão+Preto+SP" target="_blank" class="btn">Como chegar</a>
+        </div>
+    </div>
+
+    </section>
+
+    <footer>
+    <p>© 2026 BlackFit Academia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
